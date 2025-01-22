@@ -41,7 +41,7 @@ searchInput.addEventListener('keydown', (event) => {
 // Toggle sidebar visibility
 burger.addEventListener('click', () => {
     sidebar.style.display = 'flex';
-    overlay.style.display = 'flex';
+    overlay.style.display = 'block';
 });
 
 // Close sidebar
